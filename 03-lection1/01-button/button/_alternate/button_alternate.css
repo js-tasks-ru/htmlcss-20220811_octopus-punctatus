@@ -1,0 +1,15 @@
+.button_alternate {
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    color: var(--grey-4);
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button_alternate_active:hover {
+    border-color: var(--black);
+    cursor: pointer;
+}
+
+.button_alternate_active:active {
+    border-color: var(--grey-3);
+}

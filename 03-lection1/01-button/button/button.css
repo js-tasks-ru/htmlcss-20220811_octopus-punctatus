@@ -1,0 +1,14 @@
+/* Стилизация кнопки */
+
+.button {
+    width: 189px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.button_disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
