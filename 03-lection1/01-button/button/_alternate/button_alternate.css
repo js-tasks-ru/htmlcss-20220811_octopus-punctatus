@@ -5,11 +5,11 @@
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
-.button_alternate_active:hover {
+.button_alternate:hover {
     border-color: var(--black);
     cursor: pointer;
 }
 
-.button_alternate_active:active {
+.button_alternate:active {
     border-color: var(--grey-3);
 }

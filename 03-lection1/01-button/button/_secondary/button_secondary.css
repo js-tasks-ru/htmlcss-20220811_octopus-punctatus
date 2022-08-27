@@ -5,11 +5,11 @@
     transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
-.button_secondary_active:hover {
+.button_secondary:hover {
     background: #5028C6;
     cursor: pointer;
 }
 
-.button_secondary_active:active {
+.button_secondary:active {
     background: var(--secondary);
 }
