@@ -1,10 +1,10 @@
 /* Стилизация аккордеона */
 
 .accordion {
-    border: 1px solid #ACB5BD;
+    border: 1px solid var(--grey-3);
     border-radius: 8px;
     background: var(--white);
-    padding: 24px 48.69px 24px 32px;
+    padding: 24px 49px 24px 32px;
     cursor: pointer;
 }
 
