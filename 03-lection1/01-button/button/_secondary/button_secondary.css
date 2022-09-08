@@ -1,0 +1,14 @@
+.button_secondary {
+    background: var(--secondary);
+    border-style: none;
+    color: var(--white);
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button_secondary:hover {
+    background: #5028C6;
+}
+
+.button_secondary:active {
+    background: var(--secondary);
+}

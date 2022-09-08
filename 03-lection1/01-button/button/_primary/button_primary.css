@@ -1,0 +1,14 @@
+.button_primary {
+    background: var(--primary);
+    border-style: none;
+    color: var(--white);
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button_primary:hover {
+    background: #2342C0;
+}
+
+.button_primary:active {
+    background: var(--primary);
+}

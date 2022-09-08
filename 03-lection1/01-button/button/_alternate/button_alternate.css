@@ -1,0 +1,14 @@
+.button_alternate {
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    color: var(--grey-4);
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+
+.button_alternate:hover {
+    border-color: var(--black);
+}
+
+.button_alternate:active {
+    border-color: var(--grey-3);
+}
