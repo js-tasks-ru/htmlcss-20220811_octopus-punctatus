@@ -1,0 +1,9 @@
+/* Стилизация аккордеона */
+
+.accordion {
+    background: var(--white);
+}
+
+.accordion[open] {
+    padding-bottom: 16px;
+}

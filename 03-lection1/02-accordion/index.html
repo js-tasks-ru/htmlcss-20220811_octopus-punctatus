@@ -3,16 +3,57 @@
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./accordion.css">
+        <link rel="stylesheet" href="accordion/accordion.css">
+        <link rel="stylesheet" href="accordion/__item/accordion__item.css">
+        <link rel="stylesheet" href="accordion/__summary/accordion__summary.css">
+        <link rel="stylesheet" href="hiddenText/hiddenText.css">
     </head>
     <body>
-        <details>
-            <summary>
-                Accordion item
-            </summary>
-            <p>
-                Hidden content
-            </p>
-        </details>
+        <div class="accordion">
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Accordion item
+                </summary>
+                <p class="hiddenText">
+                    Hidden content.
+                </p>
+            </details>
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Accordion item 2
+                </summary>
+                <p class="hiddenText">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Velit laoreet id donec ultrices tincidunt. 
+                    Porttitor lacus luctus accumsan tortor posuere ac ut consequat semper. 
+                    Convallis convallis tellus id interdum velit laoreet id donec. 
+                    Pellentesque sit amet porttitor eget dolor. Vitae et leo duis ut diam quam nulla porttitor. 
+                    Lacus sed turpis tincidunt id aliquet risus feugiat in. Pulvinar elementum integer enim neque volutpat. 
+                    Id diam vel quam elementum pulvinar etiam. Amet mattis vulputate enim nulla aliquet porttitor lacus. 
+                    Arcu non odio euismod lacinia. Ultrices gravida dictum fusce ut placerat. 
+                    Tristique et egestas quis ipsum suspendisse. Sed faucibus turpis in eu mi bibendum neque. 
+                    Maecenas accumsan lacus vel facilisis volutpat est velit egestas. 
+                    Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. 
+                    Amet risus nullam eget felis eget nunc lobortis mattis aliquam.
+                </p>
+            </details>
+            <details class="accordion__item">
+                <summary class="accordion__summary">
+                    Accordion item 3
+                </summary>
+                <p class="hiddenText">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua. Velit laoreet id donec ultrices tincidunt. 
+                    Porttitor lacus luctus accumsan tortor posuere ac ut consequat semper. 
+                    Convallis convallis tellus id interdum velit laoreet id donec. 
+                </p>
+                <p class="hiddenText">
+                    Tristique et egestas quis ipsum suspendisse. Sed faucibus turpis in eu mi bibendum neque. 
+                    Maecenas accumsan lacus vel facilisis volutpat est velit egestas. 
+                    Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. 
+                    Amet risus nullam eget felis eget nunc lobortis mattis aliquam.
+                </p>
+            </details>
+        </div>
     </body>
 </html>
